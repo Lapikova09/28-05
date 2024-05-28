@@ -1,0 +1,32 @@
+.train_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.train_list li{
+    width: 318px;
+}
+
+.train_list li div{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.but_pr{
+    position: relative;
+}
+
+.rect{
+    position: absolute;
+    z-index: 4;
+    background-color: rgb(35, 35, 33);
+    width: 25px;
+    height: 20px;
+    top: 15px;
+    right: 82px;
+    color: rgb(200, 132, 43);
+    font-size: 15px;
+    font-weight: 600;
+}
